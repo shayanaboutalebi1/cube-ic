@@ -163,3 +163,8 @@ git add docs/buffett_pricing.md
 git commit -m "Buffett Indicator pricing model"
 git push origin main
 
+
+## Suno references
+- **blame lawyers — Shayan**
+  - https://suno.com/s/57UjYhyaTT6WCqdN
+  - https://suno.com/s/bovDCruSjba7GD0b
