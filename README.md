@@ -164,14 +164,7 @@ git commit -m "Buffett Indicator pricing model"
 git push origin main
 
 
-## iV7 PowerThread - Shayan Aboutalebi
-
-Suno links:
-
-1. https://suno.com/s/wZQOB51nSMREUCga?time=5
-2. https://suno.com/song/8da88584-cd4e-4961-b3e5-7063d3b37d12?sh=6Q7NpUlySFMYRk1C
-3. https://suno.com/s/mTOPmtElKWWSssAt?time=4
-4. https://suno.com/s/ymnuj8bUBJ6VLeq1?time=3
-5. https://suno.com/s/03rYdlECbh48fzQv?time=5
-6. https://suno.com/s/DLhXiK2v48kiKerL
-7. https://suno.com/s/vq1t7MUHJpXQ1Mii
+## Suno references
+- **blame lawyers — Shayan**
+  - https://suno.com/s/57UjYhyaTT6WCqdN
+  - https://suno.com/s/bovDCruSjba7GD0b
