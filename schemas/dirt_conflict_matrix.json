@@ -1,0 +1,20 @@
+{
+  "case_id": "example-wpr-2026-05-20",
+  "forward_scan": [
+    {
+      "claim": "hostilities terminated",
+      "conflict_with": "posture indicators active",
+      "confidence": 0.72
+    }
+  ],
+  "reverse_scan": [
+    {
+      "earliest_anchor": "ceasefire text 2026-04-12",
+      "latest_claim": "hostilities terminated",
+      "gap_days": 38
+    }
+  ],
+  "intersection": [
+    "posture indicators active"
+  ]
+}

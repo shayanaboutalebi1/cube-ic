@@ -1,0 +1,11 @@
+{
+  "cluster_id": "wpr-iran-may2026",
+  "window_hours": 72,
+  "claims": [
+    "claim-uuid-1",
+    "claim-uuid-2",
+    "claim-uuid-3"
+  ],
+  "dedup_key": "hostilities terminated phrase",
+  "confidence": 0.65
+}
