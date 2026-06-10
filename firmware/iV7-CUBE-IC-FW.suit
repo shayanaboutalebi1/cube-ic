@@ -1,0 +1,46 @@
+firmware {
+  name: "iV7 Cube IC Firmware",
+  version: "1.0",
+  build: "2026-06-10",
+  mode: "embedded",
+  scope: "local-only",
+  trust_domain: "offline-first"
+}
+
+state {
+  active: true,
+  halt_state: "idle",
+  mesh_mode: "armed",
+  energy_profile: "balanced",
+  load_factor: 0.0,
+  integrity: "verified"
+}
+
+latency_control {
+  halt_lambda: "HLC = T_halt / (N^α · R^β)",
+  propagation_mode: "logarithmic",
+  queue_behavior: "drain",
+  shutdown_policy: "ordered"
+}
+
+node_policy {
+  execution_policy: "hybrid",
+  trust_weighting: true,
+  failure_handling: "isolate",
+  sync_mode: "eventual",
+  routing: "latency-aware"
+}
+
+compliance {
+  external_io: "disabled",
+  audit_log: "enabled",
+  modification_lock: false,
+  locality: "offline-first",
+  operator_responsibility: "required"
+}
+
+closure {
+  halt_condition: "global_signal",
+  final_state: "zero",
+  validation: "checksum_required"
+}
